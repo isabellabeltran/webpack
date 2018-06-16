@@ -1,0 +1,15 @@
+{
+  "name": "webpackCourse",
+  "version": "1.0.0",
+  "description": "A webpack tutorial from Udemy ",
+  "main": "index.js",
+  "repository": "Isabella Beltran",
+  "author": "Isabella Beltran",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "1.14.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
