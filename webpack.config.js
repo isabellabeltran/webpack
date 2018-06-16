@@ -40,5 +40,10 @@ module.exports = {
         }
       }
     ]
+  }, 
+  devServer: {
+    contentBase: path.resolve(__dirname, 'build'), 
+    inline: true, 
+    port: 3000
   }
 }
