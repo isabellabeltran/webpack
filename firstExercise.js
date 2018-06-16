@@ -7,5 +7,5 @@ const $ = require('jquery');
 module.exports = function(baseCurrency, callback) {
   $.getJSON('https://data.fixer.io/api/latest' , function(fxRates) {
     callback(fxRates); 
-  });
+  })
 }

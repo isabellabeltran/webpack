@@ -1,15 +1,33 @@
 {
-  "name": "webpackCourse",
+  "name": "webpack",
   "version": "1.0.0",
   "description": "A webpack tutorial from Udemy ",
   "main": "index.js",
   "repository": "Isabella Beltran",
   "author": "Isabella Beltran",
   "license": "MIT",
+  "scripts": {
+    "webpack": "webpack"
+  },
   "devDependencies": {
-    "webpack": "1.14.0"
+    "@types/node": "^6.0.57",
+    "babel-core": "^6.22.1",
+    "babel-loader": "6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.24.1",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.12.2",
+    "eslint": "^3.12.2",
+    "eslint-loader": "^1.6.1",
+    "json-loader": "^0.5.4",
+    "ts-loader": "^1.3.3",
+    "typescript": "^2.1.4",
+    "webpack": "1.14.0",
+    "yaml-loader": "^0.4.0"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
   }
 }
